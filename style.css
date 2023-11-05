@@ -1,0 +1,699 @@
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #728fff;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color: orange;
+    text-align: center;
+}
+
+.phone-android{
+    width: 250px;
+    height: 500px;
+    background-color: #343434;
+    color: white;
+    font-family: cursive;
+    border: 6px solid black;
+    margin:3% auto ;
+    border-radius: 25px;
+}
+.notch{
+    width: 50%;
+    height: 20px;
+    border: 2px solid black;
+    background-color: #1b1212;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    margin: -3px auto ;
+}
+.Speaker{
+    width: 60%;
+    height: 7px;
+    background-color: rgba(2, 2, 17, 0.459);
+    margin: 6px 5px 0px 9px;
+    border-radius: 7px;
+}
+.cam{   
+    width: 7%;
+    height: 9px;
+    background-color:rgba(2, 2, 17, 0.459);
+    margin-top: -6%;
+    float: right;
+    margin-right: 15%;
+    border-radius: 50%;
+    border: 2px solid black;
+     
+
+}
+.head{
+    background-color: #1b1212;
+    margin: 0;
+}
+.head h1{
+    font-size: 20px;
+    color: orange;
+}
+.date{
+    width: 50%;
+    margin: 2px 23%;
+    background-color: #1b1212;
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.msg1{
+    background-color: #1b1212;
+    width: 50%;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    
+}
+.msg1 sub{
+    display: inline;
+    font-size: 7px;
+}
+.msg2{
+    background-color: #1b1212;
+    width: 50%;
+    float: right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+}
+.msg2 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg3{
+    background-color: #1b1212;
+    width: 50%;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 22%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 4.5s;
+    animation-timing-function: linear;
+   
+}
+.msg3 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg4{
+    background-color: #1b1212;
+    width: 80%;
+    float:right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    
+}
+.msg4 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg5{
+    background-color: #1b1212;
+    width: 80%;
+    float: left;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 7.5s;
+    animation-timing-function: linear;
+   
+}
+.msg5 sub{
+    display: inline;
+    font-size: 7px;
+}
+.msg6{
+    background-color: #1b1212;
+    width: 40%;
+    float: right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+   
+}
+.msg6 sub{
+    display: inline;
+    font-size: 7px;
+}
+input[type=text]{
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 2%;
+    border-radius: 20px;
+    font-family: cursive;
+    height: 30px;
+    text-align: center;
+}
+#bt_send{
+    display: inline;
+    background-color: #000;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 50%;
+    transition:0.3s;
+    transform: scale(0.7);
+}
+#bt_send:hover{
+    transform:  scale(0.8) rotate(180deg);
+    
+    
+   
+}
+.footer{
+    width: 50%;
+    height: 10px;
+    background: #1b1212;
+    margin: 9px auto;
+    border-radius: 7px 7px 3px 3px;
+
+}
+
+    
+@keyframes up{
+    0%{
+        transform: translateY(530px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(340px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(220px);
+        opacity: 0;
+    }
+    90%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+@media only Screen and (max-width:400px){
+   
+
+    body{
+        margin:0;
+        padding: 0;
+        background-color: #728fff;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .phone-android{
+        width: 250px;
+        height: 500px;
+        background-color: #343434;
+        color: white;
+        font-family: cursive;
+        border: 6px solid black;
+        margin:3% auto ;
+        border-radius: 25px;
+    }
+    .notch{
+        width: 50%;
+        height: 20px;
+        border: 2px solid black;
+        background-color: #1b1212;
+        position: relative;
+        border-radius: 0px 0px 20px 20px;
+        margin: -3px auto ;
+    }
+    .Speaker{
+        width: 60%;
+        height: 7px;
+        background-color: rgba(2, 2, 17, 0.459);
+        margin: 6px 5px 0px 9px;
+        border-radius: 7px;
+    }
+    .cam{   
+        width: 7%;
+        height: 9px;
+        background-color:rgba(2, 2, 17, 0.459);
+        margin-top: -6%;
+        float: right;
+        margin-right: 15%;
+        border-radius: 50%;
+        border: 2px solid black;
+         
+    
+    }
+    .head{
+        background-color: #1b1212;
+        margin: 0;
+    }
+    .head h1{
+        font-size: 20px;
+        color: orange;
+    }
+    .date{
+        width: 50%;
+        margin: 2px 23%;
+        background-color: #1b1212;
+        text-align: center;
+        border-radius: 10px;
+        font-size: small;
+    }
+    
+    .msg1{
+        background-color: #1b1212;
+        width: 50%;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-left: 2%;
+        margin-top: 5%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        
+    }
+    .msg1 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    .msg2{
+        background-color: #1b1212;
+        width: 50%;
+        float: right;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-right: 2%;
+        margin-top: 5%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        
+    }
+    .msg2 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    
+    .msg3{
+        background-color: #1b1212;
+        width: 50%;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-left: 2%;
+        margin-top: 22%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 4.5s;
+        animation-timing-function: linear;
+       
+    }
+    .msg3 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    
+    .msg4{
+        background-color: #1b1212;
+        width: 80%;
+        float:right;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-right: 2%;
+        margin-top: 5%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+        
+    }
+    .msg4 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    
+    .msg5{
+        background-color: #1b1212;
+        width: 80%;
+        float: left;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-left: 2%;
+        margin-top: 5%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 7.5s;
+        animation-timing-function: linear;
+       
+    }
+    .msg5 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    .msg6{
+        background-color: #1b1212;
+        width: 40%;
+        float: right;
+        padding:5px 5px 5px 10px;
+        font-size: small;
+        margin-right: 2%;
+        margin-top: 5%;
+        border-radius: 10px; 
+        animation-name: up;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+       
+    }
+    .msg6 sub{
+        display: inline;
+        font-size: 7px;
+    }
+    input[type=text]{
+        width: 70%;
+        margin-top: 15%;
+        margin-left: 2%;
+        border-radius: 20px;
+        font-family: cursive;
+        height: 30px;
+        text-align: center;
+    }
+    #bt_send{
+        display: inline;
+        background-color: #000;
+        color: white;
+        font-size: 10px;
+        padding: 10px;
+        font-family: cursive;
+        border-radius: 50%;
+        transition:0.3s;
+        transform: scale(0.7);
+    }
+    #bt_send:hover{
+        transform:  scale(0.8) rotate(180deg);
+        
+        
+       
+    }
+    .footer{
+        width: 50%;
+        height: 10px;
+        background: #1b1212;
+        margin: 9px auto;
+        border-radius: 7px 7px 3px 3px;
+    
+    }
+
+@keyframes up{
+    0%{
+        transform: translateY(530px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(340px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(220px);
+        opacity: 0;
+    }
+    90%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+  
+.down{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -10% 50px;
+}
+        
+}
+@media Screen and (min-width:402px) and (max-width:870px){
+h1{
+    color: orange;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #728fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.phone-android{
+    width: 250px;
+    height: 500px;
+    background-color: #343434;
+    color: white;
+    font-family: cursive;
+    border: 6px solid black;
+    margin:3% auto ;
+    border-radius: 25px;
+}
+.notch{
+    width: 50%;
+    height: 20px;
+    border: 2px solid black;
+    background-color: #1b1212;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    margin: -3px auto ;
+}
+.Speaker{
+    width: 60%;
+    height: 7px;
+    background-color: rgba(2, 2, 17, 0.459);
+    margin: 6px 5px 0px 9px;
+    border-radius: 7px;
+}
+.cam{   
+    width: 7%;
+    height: 9px;
+    background-color:rgba(2, 2, 17, 0.459);
+    margin-top: -6%;
+    float: right;
+    margin-right: 15%;
+    border-radius: 50%;
+    border: 2px solid black;
+     
+
+}
+.head{
+    background-color: #1b1212;
+    margin: 0;
+}
+.head h1{
+    font-size: 20px;
+    color: orange;
+}
+.date{
+    width: 50%;
+    margin: 2px 23%;
+    background-color: #1b1212;
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.msg1{
+    background-color: #1b1212;
+    width: 50%;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    
+}
+.msg1 sub{
+    display: inline;
+    font-size: 7px;
+}
+.msg2{
+    background-color: #1b1212;
+    width: 50%;
+    float: right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+}
+.msg2 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg3{
+    background-color: #1b1212;
+    width: 50%;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 22%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 4.5s;
+    animation-timing-function: linear;
+   
+}
+.msg3 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg4{
+    background-color: #1b1212;
+    width: 80%;
+    float:right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    
+}
+.msg4 sub{
+    display: inline;
+    font-size: 7px;
+}
+
+.msg5{
+    background-color: #1b1212;
+    width: 80%;
+    float: left;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 7.5s;
+    animation-timing-function: linear;
+   
+}
+.msg5 sub{
+    display: inline;
+    font-size: 7px;
+}
+.msg6{
+    background-color: #1b1212;
+    width: 40%;
+    float: right;
+    padding:5px 5px 5px 10px;
+    font-size: small;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 10px; 
+    animation-name: up;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+   
+}
+.msg6 sub{
+    display: inline;
+    font-size: 7px;
+}
+input[type=text]{
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 2%;
+    border-radius: 20px;
+    font-family: cursive;
+    height: 30px;
+    text-align: center;
+}
+#bt_send{
+    display: inline;
+    background-color: #000;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 50%;
+    transition:0.3s;
+    transform: scale(0.7);
+}
+#bt_send:hover{
+    transform:  scale(0.8) rotate(180deg);
+    
+    
+   
+}
+.footer{
+    width: 50%;
+    height: 10px;
+    background: #1b1212;
+    margin: 9px auto;
+    border-radius: 7px 7px 3px 3px;
+
+}
+
+    @keyframes up{
+        0%{
+            transform: translateY(530px);
+            opacity: 0;
+        }
+        50%{
+            transform: translateY(340px);
+            opacity: 0;
+        }
+        80%{
+            transform: translateY(220px);
+            opacity: 0;
+        }
+        90%{
+            transform: translateY(20px);
+            opacity: 0;
+        }
+    }
+    
+}
